@@ -1,0 +1,35 @@
+
+
+
+  .bg-color-dark .sub-heading-1,
+  .bg-color-grad .sub-heading-1{
+      color: #2c1a26;
+      font-size: 20px;
+  }
+
+
+
+
+.mt-20{ margin-top: 20px;}
+.mt-30{ margin-top: 30px;}
+.mt-60{ margin-top: 60px;}
+.mt-90{ margin-top: 90px;}
+.mb-30{ margin-bottom: 30px;}
+.mb-60{ margin-bottom: 60px;}
+.mb-90{ margin-bottom: 90px;}
+.mt-negative-20{ margin-top: -20px;}
+.mt-negative-30{ margin-top: -30px;}
+.mb-negative-30{ margin-bottom: -30px;}
+.mt-negative-60{ margin-top: -60px;}
+.mb-negative-60{ margin-bottom: -60px;}
+.mt-negative-90{ margin-top: -90px;}
+.mb-negative-90{ margin-bottom: -90px;}
+
+
+.high-img img {
+	display: block;
+	position: absolute;
+	max-width: 20%;
+	right: 0;
+	top: -145px;
+}
