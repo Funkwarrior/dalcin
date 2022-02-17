@@ -1,0 +1,106 @@
+[
+      {
+        "question": "What does HTML stand for?",
+        "a": "Hyper Text Markup Language",
+        "b": "Home Tool Markup Language",
+        "c": "Hyperlinks and Text Markup Language",
+        "d": "Hyper Text Methodic Language",
+        "answer": "a"
+      },
+      {
+        "question": "Choose the correct HTML tag for the largest heading",
+        "a": "Head",
+        "b": "H1",
+        "c": "H6",
+        "d": "Heading",
+        "answer": "b"
+      },
+      {
+        "question": "What is the correct HTML tag for inserting a line break?",
+        "a": "<break>",
+        "b": "<br><br/>",
+        "c": "<br/>",
+        "d": "<lb>",
+        "answer": "c"
+      },
+      {
+        "question": "Choose the correct HTML tag to make a text bold.  ",
+        "a": "<bold>",
+        "b": "<strong>",
+        "c": "<b>",
+        "d": "<bb>",
+        "answer": "c"
+      },
+      {
+        "question": "Choose the correct HTML tag to make a text italic.  ",
+        "a": "<italic>",
+        "b": "<i>",
+        "c": "<ii>",
+        "d": "<it>",
+        "answer": "b"
+      },
+      {
+        "question": "What is the correct HTML for creating a hyperlink?",
+        "a": "<a url=\"https://mdbootstrap.com\">MDBootstrap.com</a>",
+        "b": "<a href=\"https://mdbootstrap.com\">MDBootstrap.com</a>",
+        "c": "<a>\"https://mdbootstrap.com\">MDBootstrap.com</a>",
+        "d": "<a name=\"https://mdbootstrap.com\">MDBootstrap.com</a>",
+        "answer": "b"
+      },
+      {
+        "question": "How can you create an e-mail link?  ",
+        "a": "<mail href=\"mail@domain.com\">",
+        "b": "<mail to=\"mail@domain.com\">",
+        "c": "<a href=\"mail@domain.com\">",
+        "d": "<a href=\"mailto:mail@domain.com\">",
+        "answer": "d"
+      },
+      {
+        "question": "How can you open a link in a new browser window? ",
+        "a": "<a href=\"url\" target=\"_blank\">",
+        "b": "<a href=\"url\" target=\"new\">",
+        "c": "<a href=\"url\" target=\"_window\">",
+        "d": "<a href=\"url\" new>",
+        "answer": "a"
+      },
+      {
+        "question": "How can you make a list that lists the items with numbers?",
+        "a": "<ol>",
+        "b": "<di>",
+        "c": "<ul>",
+        "d": "<list>",
+        "answer": "a"
+      },
+      {
+        "question": "How can you make a list that lists the items with bullets?",
+        "a": "<ol>",
+        "b": "<di>",
+        "c": "<ul>",
+        "d": "<list>",
+        "answer": "c"
+      },
+      {
+        "question": "What is the correct HTML for inserting an image?",
+        "a": "<img alt=\"My image \">image.jpg</img>",
+        "b": "<img alt=\"My image\" src=\"image.jpg\">",
+        "c": "<img alt=\"My image\" href=\"image.jpg\">",
+        "d": "<image alt=\"My image\" src=\"image.jpg\">",
+        "answer": "b"
+      },
+      {
+        "question": "How can you make a list that lists the items without bullets or numbers?",
+        "a": "<ol>",
+        "b": "<di>",
+        "c": "<ul>",
+        "d": "Lists have to have numbers or bullets",
+        "answer": "b"
+      },
+      {
+        "question": "What is the purpose of <!DOCTYPE html>?",
+        "a": "provides the web browser with security information",
+        "b": "instructs the browser where to look for your CSS files",
+        "c": "allows programmers to link to files in-line",
+        "d": "tells the web browser what language to expect",
+        "answer": "d"
+      }
+]
