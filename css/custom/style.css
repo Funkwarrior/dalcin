@@ -190,7 +190,7 @@ span.text-black{
 
 .btn:hover{
     color: #ffffff;
-}    
+}
 
 .btn-prim{
     background-color: #333;
@@ -199,7 +199,7 @@ span.text-black{
     padding: 10px;
     display: inline-block;
     line-height: 1rem;
-}    
+}
 .btn-prim-round{
     background-color: #333;
     border: 0px;
@@ -207,10 +207,10 @@ span.text-black{
     padding: 10px;
     display: inline-block;
     line-height: 1rem;
-}    
+}
 .btn-prim-round:hover{
     background-color: #111111;
-}    
+}
 .btn-ter-round{
     color: #333333;
     background-color: transparent;
@@ -220,11 +220,11 @@ span.text-black{
     padding: 10px;
     display: inline-block;
     line-height: 1rem;
-}    
+}
 .btn-ter-round:hover{
     color: #333333;
     background-color: #d7d2c4;
-}    
+}
 
 .btn-ter-light{
     border: 1px solid rgba(255, 255, 255, .2);
@@ -232,11 +232,11 @@ span.text-black{
     padding: 10px;
     display: inline-block;
     line-height: 1rem;
-}    
+}
 
 .btn-ter-light:hover{
     border: 1px solid rgba(255, 255, 255, 0);
-}    
+}
 
 .btn-ter-dark{
     border: 1px solid rgba(0, 0, 0, .1);
@@ -246,7 +246,7 @@ span.text-black{
     line-height: 1rem;
     margin-top: 30px;
     color: #333333;
-}    
+}
 
 
 .btn-link{
@@ -263,7 +263,7 @@ span.text-black{
 .btn-link:hover{
     color: #333333;
     text-decoration: none !important;
-    
+
 }
 
 
@@ -272,7 +272,7 @@ span.text-black{
     margin-top: 30px;
     color: #3182d2;
     transition: all .2s ease-in-out;
-}    
+}
 
 /* Accordion custome style */
 .card {
@@ -289,11 +289,11 @@ span.text-black{
     margin-bottom: 10px;
     border-radius: 10px;
 }
-.card-body{
+.claim .card-body{
     background-color: #ebebeb;
 }
 
-.card-body .btn-link{
+.claim .card-body .btn-link{
     display: block;
     margin-top: 20px;
     padding: 0;
@@ -364,17 +364,17 @@ span.text-black{
 .vertical-cntr{
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
 }
 
 .col-icon-bg-cntr {
     width: 100%;
     background-color: #ffffff;
     padding: 50px 30px;
-    border-radius: 15px;  
+    border-radius: 15px;
     position: relative;
     transition: all .4s ease-in-out;
-    
+
 }
 
 .col-icon-bg-cntr:hover{
@@ -406,7 +406,7 @@ span.text-black{
 
 .col-icon-bg-cntr:hover .icon-cntr span::before{
     font-size: 42px;
-    
+
 }
 
 .col-icon-bg-cntr h6{
@@ -419,7 +419,7 @@ span.text-black{
 
 .col-icon-bg-cntr:hover .icon-cntr{
     padding-bottom: 20px;
-    transform: translateY(-20px);    
+    transform: translateY(-20px);
 }
 
 .icon-cntr {
@@ -483,7 +483,7 @@ span.text-black{
 
 .bullet-points ul{
     padding: 10px 0px;
-    
+
 }
 
 .bullet-points ul li {
@@ -649,7 +649,7 @@ span.text-black{
     color: #222222;
     transition: all .3s ease-in-out;
     padding: 20px 15px;
-    
+
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -707,7 +707,7 @@ span.text-black{
     color: #ffffff;
     white-space: nowrap;
     background-color: #1385bd;
-    
+
 }
 
 .dropdown-menu .dropdown-item::before{
@@ -751,7 +751,7 @@ span.text-black{
 .hero-text{
     text-align: center;
     padding: 20px 0px 40px 0px;
-    
+
 }
 
 .hero-text h1{
@@ -799,7 +799,7 @@ span.text-black{
         border-top: 1px solid #333333;
         padding: 20px 0px;
     }
-    
+
     footer .copyright p{
         color: #666666;
     }
@@ -838,7 +838,7 @@ span.text-black{
     .copyright-social ul li a:hover{
         opacity: 1;
     }
-   
+
 
 /* ====== 1.4 - FOOTER ENDS ====== */
 
@@ -991,7 +991,7 @@ span.text-black{
 }
 .offers ul li p{
     font-size: 14px;
-    color: #666666;    
+    color: #666666;
 }
 
 .offers .list-icon{
@@ -1014,7 +1014,7 @@ span.text-black{
 .car-info{
     padding-left: 30px;
     border-left: 2px solid #1385bd;
-    
+
 }
 .car-info li{
     padding: 10px 0px;
@@ -1187,11 +1187,11 @@ span.text-black{
 
 div .col-icon-bg-cntr{
     margin-bottom: 30px;
-    
+
 }
 div .col-icon-bg-cntr:not(.no-margin) {
     margin-bottom: 30px;
-    
+
 }
 
 /* feedback section */
@@ -1213,7 +1213,7 @@ div .col-icon-bg-cntr:not(.no-margin) {
 }
 .feedback-list{
     background: url(../../images/feedback_bg_2.png) center center no-repeat;
-    background-size: contain; 
+    background-size: contain;
     padding: 30px 30px 0px 30px;
     box-sizing: border-box;
 }
@@ -1223,7 +1223,7 @@ div .col-icon-bg-cntr:not(.no-margin) {
 }
 
 .item-1 {
-      
+
 	padding: 0px 3px 5px 3px;
 }
 .feedback-pic-left {
@@ -1284,7 +1284,7 @@ div .col-icon-bg-cntr:not(.no-margin) {
        right: 0;
        top: 0;
    }
-   
+
    .pro-border:nth-last-child(1)::after{
        content: '';
        width: 0px;
@@ -1293,7 +1293,7 @@ div .col-icon-bg-cntr:not(.no-margin) {
        right: 0;
        top: 0;
    }
-   
+
    .product h6{
        font-size: 18px;
        font-weight: 600;
@@ -1331,7 +1331,7 @@ div .col-icon-bg-cntr:not(.no-margin) {
     position: relative;
     overflow: hidden;
     transition: all .25s ease-in-out;
-    
+
 }
 
 .team:hover{
@@ -1491,14 +1491,14 @@ div .col-icon-bg-cntr:not(.no-margin) {
 
 .package ul li.active::after{
     content: '';
-    background: url(../../images/icon_ticked.png) no-repeat center left; 
+    background: url(../../images/icon_ticked.png) no-repeat center left;
     background-size: contain;
 }
 
 .package ul li::after{
     content: '';
     display: block;
-    background: url(../../images/icon_tick.png) no-repeat center left; 
+    background: url(../../images/icon_tick.png) no-repeat center left;
     background-size: contain;
     width: 20px;
     height: 20px;
@@ -1527,7 +1527,7 @@ div .col-icon-bg-cntr:not(.no-margin) {
 
 .package ul li:hover::after{
     background: url(../../images/icon_ticked.png) no-repeat center left;
-    background-size: contain; 
+    background-size: contain;
 }
 
 
@@ -1539,7 +1539,7 @@ div .col-icon-bg-cntr:not(.no-margin) {
     width: 100%;
     background-color: #1385bd;
     letter-spacing: 1px;
-    
+
 }
 
 .package .btn:hover{
@@ -1554,11 +1554,11 @@ div .col-icon-bg-cntr:not(.no-margin) {
     width: 100%;
     background-color: #1385bd;
     padding: 50px 30px;
-    border-radius: 15px;  
+    border-radius: 15px;
     position: relative;
     overflow: hidden;
     transition: all .4s ease-in-out;
-    
+
 }
 
 .col-icon-cntr-claim .circle-1 {
@@ -1648,7 +1648,7 @@ div .col-icon-bg-cntr:not(.no-margin) {
     height: auto;
     margin: 0px auto 30px auto ;
     display: block;
-    
+
 }
 .col-text-claim{
     text-align: center;
@@ -1715,7 +1715,7 @@ div .col-icon-bg-cntr:not(.no-margin) {
     }
     .policy-section{
         display: flex;
-        flex-direction: column;        
+        flex-direction: column;
         justify-content: space-between;
         padding: 0;
     }
@@ -1759,7 +1759,7 @@ div .col-icon-bg-cntr:not(.no-margin) {
     .m-policy .app-icon{
         max-width: 100px
     }
-    
+
 /* Insurance section */
 
 /* ====== 4 - CAR CLAIM PAGE ENDS ====== */
@@ -1958,7 +1958,7 @@ label {
     width: 100%;
     background-color: #1385bd;
     letter-spacing: 1px;
-    
+
 }
 .soluzioni .btn:hover,
 #newsletter .btn:hover{
@@ -1978,8 +1978,8 @@ label {
     left:0;
     background:#CCCCCC;
   }
-  
-  .scroll-bar { 
+
+  .scroll-bar {
     width:0;
     height: inherit;
     background: #1385bd;
@@ -1999,7 +1999,7 @@ label {
     transform: scale(0.95);
   }
   .gracious_img{
-    position: relative; 
+    position: relative;
   }
   .gracious_img::before {
     content: "";
@@ -2012,3 +2012,41 @@ label {
     left: 1rem;
     background-size: contain;
    }
+
+
+/* ====== 9 - BLOG SECTION STARTS ====== */
+.single-blog{position: relative;transition: all .3s ease-in-out;    border-radius: 0px 0px 15px 15px;
+}
+.single-blog:hover{
+        box-shadow: 0px 10px 30px rgb(0 0 0 / 10%)
+}
+.blog-img{ background-color: #000000; border-radius: 15px 15px 0px 0px; overflow: hidden;}
+.blog-img img{ opacity: .5; transform: scale(1.05); transition: all .3s cubic-bezier(.8, .5, .9, 1);}
+.blog-img img:hover{ opacity: 1; transform: scale(1.2);}
+
+.blog-text{
+    width:100%;
+    border-radius: 0px 0px 15px 15px;
+    background-color: #ffffff;
+    padding: 20px 30px;
+
+}
+.blog-text p{
+    color: #666666;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.blog-text h6{
+    color: #1385bd;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0;
+    transition: all .2s ease-in-out;
+}
+.blog-text h6:hover{
+    color: #111111;
+    transform: translateX(10px);
+}
+
+/* ====== 9 - BLOG SECTION ENDS ====== */
