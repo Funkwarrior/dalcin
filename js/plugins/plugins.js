@@ -46,6 +46,9 @@ var swiper_videos = new Swiper('.swiper.videos', {
 
 });
 
+var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+  target: "#navbarNavDropdown"
+})
 
 /* AOS  */
 AOS.init({
@@ -60,6 +63,8 @@ function indicateScrollBar() {
   const scrolled = (distanceFromPageTop / height) * 100;
   document.querySelector(".scroll-bar").style.width = `${scrolled}%`;
 }
+
+
 (function ($) {
 	"use strict";
 // Timeline Scroll Section

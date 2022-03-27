@@ -776,7 +776,7 @@ span.text-black {
 
 }
 
-.navbar-light .navbar-nav .active .nav-link {
+.navbar-light .navbar-nav .nav-link.active {
     color: #1385bd !important;
 }
 
@@ -853,6 +853,7 @@ span.text-black {
     font-size: 15px;
 
 }
+
 
 
 /* ====== 1.2 - NAV BAR ENDS ====== */
@@ -2488,3 +2489,201 @@ label {
 }
 
 .journey-card img.img-fluid {}
+
+
+.timeline-box .left-content h2 {
+    color: #ffa84b;
+    font-size: 80px;
+    margin-bottom: 20px;
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .timeline-box .left-content h2 {
+      font-size: 60px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .timeline-box .left-content h2 {
+      font-size: 60px;
+    }
+  }
+
+  .timeline-box .left-content h2.heding-grey {
+    color: #ededed;
+  }
+
+  .timeline-box .left-content h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .timeline-box .left-content h4 {
+      font-size: 20px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .timeline-box .left-content h4 {
+      font-size: 20px;
+    }
+  }
+
+  .journey-list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (2fr)[2];
+        grid-template-columns: repeat(2, 2fr);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    grid-gap: 30px;
+    position: relative;
+    z-index: 1;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .journey-list {
+      padding-top: 0;
+      grid-gap: 15px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .journey-list {
+      padding-top: 0;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .journey-list {
+      padding-top: 0;
+      display: block;
+    }
+  }
+
+  .journey-list::before {
+    content: "";
+    position: absolute;
+    background: url(../img/journey/time-line1.png) no-repeat;
+    width: 100px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    z-index: -1;
+  }
+
+  @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    .journey-list::before {
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .journey-list::before {
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .journey-list::before {
+      display: none;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .journey-list::before {
+      display: none;
+    }
+  }
+
+  .journey-list li {
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+  }
+
+  @media (max-width: 767px) {
+    .journey-list li {
+      margin-top: 0;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .journey-list li img {
+      width: 100%;
+    }
+  }
+
+  .journey-list li:first-child, .journey-list li:nth-child(3), .journey-list li:nth-child(5), .journey-list li:nth-child(7) {
+    padding-right: 60px;
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .journey-list li:first-child, .journey-list li:nth-child(3), .journey-list li:nth-child(5), .journey-list li:nth-child(7) {
+      padding-right: 0;
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .journey-list li:first-child, .journey-list li:nth-child(3), .journey-list li:nth-child(5), .journey-list li:nth-child(7) {
+      padding-right: 0;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .journey-list li:first-child, .journey-list li:nth-child(3), .journey-list li:nth-child(5), .journey-list li:nth-child(7) {
+      padding-right: 0;
+    }
+  }
+
+  .journey-list li:nth-child(2), .journey-list li:nth-child(4), .journey-list li:nth-child(6), .journey-list li:nth-child(8) {
+    transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    -ms-transform: translateY(100px);
+    -o-transform: translateY(100px);
+    padding-left: 45px;
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .journey-list li:nth-child(2), .journey-list li:nth-child(4), .journey-list li:nth-child(6), .journey-list li:nth-child(8) {
+      transform: translateY(0);
+      -webkit-transform: translateY(0);
+      -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+      -o-transform: translateY(0);
+      padding-left: 0;
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .journey-list li:nth-child(2), .journey-list li:nth-child(4), .journey-list li:nth-child(6), .journey-list li:nth-child(8) {
+      transform: translateY(0);
+      -webkit-transform: translateY(0);
+      -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+      -o-transform: translateY(0);
+      padding-left: 0;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .journey-list li:nth-child(2), .journey-list li:nth-child(4), .journey-list li:nth-child(6), .journey-list li:nth-child(8) {
+      transform: translateY(0);
+      -webkit-transform: translateY(0);
+      -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+      -o-transform: translateY(0);
+      padding-left: 0;
+    }
+  }

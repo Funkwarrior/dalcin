@@ -43,7 +43,7 @@
 
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#navbarNavDropdown" data-bs-offset="0" tabindex="0">
+<body data-bs-spy="scroll" data-bs-target="#navbarNavDropdown" data-bs-offset="50" tabindex="0">
    <!-- debug bootstrap-->
    <div class="position-fixed text-nowrap rounded-3 p-1 m-3 bg-info opacity-50" style="z-index: 1040;">
       <div class="d-block d-sm-none">Extra Small (xs)</div>
@@ -70,20 +70,25 @@
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
          </button>
-         <a class="btn btn-success rounded-pill d-lg-inline-block ms-auto align-self-center me-sm-5 me-lg-0 order-last nav_button"
+         <a class="btn greennumber d-none d-sm-inline btn-success rounded-pill ms-auto align-self-center me-sm-5 me-lg-0 order-last nav_button"
             href="tel:+39800207113" rel="nofollow"><i class="fa-solid fa-phone fa-shake fa-xl"
                style="--fa-animation-duration: 5s;"></i> 800-207113</a>
-
+         <a class="btn greennumber d-inline d-sm-none btn-success rounded-pill ms-auto align-self-center me-sm-5 me-lg-0 order-last nav_button"
+         href="tel:+39800207113" rel="nofollow"><i class="fa-solid fa-phone fa-shake fa-xl"
+            style="--fa-animation-duration: 5s;"></i></a>
          <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav me-auto mt-2 mt-lg-0 w-100">
-               <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home</a>
+               <li class="nav-item">
+                  <a class="nav-link" href="#home">Home</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="#la-nostra-squadra">La nostra squadra</a>
+                  <a class="nav-link" href="#la-nostra-squadra">Squadra</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="#le-nostre-soluzioni">Le nostre soluzioni</a>
+                  <a class="nav-link" href="#la-nostra-storia">Storia</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#le-nostre-soluzioni">Soluzioni</a>
                </li>
                <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -105,7 +110,7 @@
                </li>
                <li class="nav-item ms-lg-auto">
                   <a class="nav-link" href="http://dalcinstudiohi.assieasy.com/" target="_blank"
-                     rel="noopener noreferrer">Area
+                     rel="noopener noreferrer"><i class="fa-regular fa-id-badge"></i> Area
                      Riservata</a>
                </li>
             </ul>
@@ -117,7 +122,7 @@
    <!-- Nav Bar Ends here -->
    <!-- Hero Image Starts here -->
 
-   <div class="hero-image">
+   <div class="hero-image" id="home">
       <div class="container">
          <div class="row">
             <div class="col-lg-12">
@@ -143,7 +148,7 @@
                            </div>
 
                            <div class="text" data-swiper-parallax="1500">
-                              <img src="images/hero_car_1.png" class="img-fluid" alt="">
+                              <img src="images/Asset_1.png" class="img-fluid" alt="">
                            </div>
 
                         </div>
@@ -158,13 +163,39 @@
                            </div>
 
                            <div class="text" data-swiper-parallax="1000">
-                              <img src="images/hero_bike_1.png" class="img-fluid" alt="">
+                              <img src="images/Asset_2.png" class="img-fluid" alt="">
                            </div>
 
                         </div>
                      </div>
+                     <div class="swiper-slide">
 
+                        <div class="slider-text-bg">
 
+                           <div class="title" data-swiper-parallax="600">
+                              <img src="images/hero_bike_2.png" class="img-fluid" alt="">
+                           </div>
+
+                           <div class="text" data-swiper-parallax="1000">
+                              <img src="images/Asset_3.png" class="img-fluid" alt="">
+                           </div>
+
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+
+                        <div class="slider-text-bg">
+
+                           <div class="title" data-swiper-parallax="600">
+                              <img src="images/hero_bike_2.png" class="img-fluid" alt="">
+                           </div>
+
+                           <div class="text" data-swiper-parallax="1000">
+                              <img src="images/Asset_4.png" class="img-fluid" alt="">
+                           </div>
+
+                        </div>
+                     </div>
                   </div>
                   <!-- Add Pagination -->
                   <div class="swiper-pagination swiper-pagination-h"></div>
@@ -226,7 +257,7 @@
 
 
          <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-6 blog-pb">
+            <div class="col-lg-4 col-md-6 col-sm-6 blog-pb mb-5">
                <a href="news_detail.html">
 
                   <div class="single-blog">
@@ -234,14 +265,14 @@
                      </div>
                      <div class="blog-text">
                         <p><i class="fa-solid fa-calendar-days"></i> 10 Aprile 2022</p>
-                        <h6>How To Manage File Uploads In React With Google</h6>
+                        <h6>Titolo articolo 1</h6>
 
                      </div>
                   </div>
                </a>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-6 blog-pb">
+            <div class="col-lg-4 col-md-6 col-sm-6 blog-pb mb-5">
                <a href="news_detail.html">
 
                   <div class="single-blog">
@@ -249,14 +280,14 @@
                      </div>
                      <div class="blog-text">
                         <p><i class="fa-solid fa-calendar-days"></i> 17 Aprile 2022</p>
-                        <h6>Big-sized environments from many different sectors like</h6>
+                        <h6>Titolo articolo 2</h6>
                      </div>
                   </div>
                </a>
 
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-6 blog-pb">
+            <div class="col-lg-4 col-md-6 col-sm-6 blog-pb mb-5">
                <a href="news_detail.html">
                   <div class="single-blog">
                      <div class="blog-img"><img src="https://picsum.photos/600/400?random=3" class="img-fluid" alt="">
@@ -264,20 +295,37 @@
                      <div class="blog-text">
                         <p><i class="fa-solid fa-calendar-days"></i> 17 Aprile 2022</p>
 
-                        <h6>During those years I had been following same.</h6>
+                        <h6>Titolo articolo 3</h6>
                      </div>
                   </div>
                </a>
 
             </div>
 
+            <div class="col-lg-4 col-md-6 col-sm-6 blog-pb mb-5 d-block d-lg-none ">
+               <a href="news_detail.html">
+                  <div class="single-blog">
+                     <div class="blog-img"><img src="https://picsum.photos/600/400?random=3" class="img-fluid" alt="">
+                     </div>
+                     <div class="blog-text">
+                        <p><i class="fa-solid fa-calendar-days"></i> 1 Maggio 2022</p>
+
+                        <h6>Titolo articolo 4</h6>
+                     </div>
+                  </div>
+               </a>
+
+            </div>
          </div>
+            <div class="row d-grid gap-2 col-4 mx-auto">
+               <a class="btn btn-prim btn-prim-round my-4"  href="#">Leggi tutte le news</a>
+            </div>
       </div>
    </div>
   <!-- Full width Starts here -->
 
 
-   <section class="section-larger section-storia time-line" id="storia">
+   <section class="section-larger section-storia time-line" id="la-nostra-storia">
       <div class="container">
          <div class="row">
             <div class="col-lg-8 m-auto">
@@ -505,11 +553,16 @@
                <div class="title-center p-0">
                   <span class="sub-heading-1">Esempi</span>
                   <h2>Le nostre soluzioni</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti numquam sit eligendi veritatis
-                     debitis illo consequuntur tenetur distinctio, totam modi!</p>
+                  <p>
+
+                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut nesciunt tenetur tempore modi quas error quod quos. Excepturi eaque neque sed aperiam. Inventore, velit.
+
+                     Soluta, repellendus! Incidunt delectus nemo distinctio temporibus, magni velit ea dignissimos deserunt quidem voluptatum non illum fugiat nihil labore pariatur dolor perspiciatis in dolore veritatis unde?
+                     </p>
                </div>
             </div>
          </div>
+
          <div class="row section">
             <div class="col-lg-5 col-md-6 col-sm-12">
                <div class="img-container gracious_img">
