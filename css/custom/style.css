@@ -2687,3 +2687,7 @@ label {
       padding-left: 0;
     }
   }
+
+  .swiper.form-home .swiper-slide{
+      display: block;
+  }
